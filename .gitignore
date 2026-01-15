@@ -1,0 +1,15 @@
+# Evaluation results folders
+evaluation_results*/
+
+# Models folder
+models/
+
+# Results plots folders
+results_plots*/
+results_plots_isolation/
+
+# Dataset folder
+MQTTEEB-D_Final_Dataset/
+processed_output/
+
+venv/
