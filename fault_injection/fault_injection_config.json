@@ -1,0 +1,18 @@
+{
+  "enabled": false,
+  "corruption": {
+    "rate": 0.3,
+    "noise_std": 0.3,
+    "description": "Random feature corruption: adds Gaussian noise to a percentage of numeric features"
+  },
+  "payload_loss": {
+    "rate": 0.3,
+    "payload_feature": "mqtt_payload_len",
+    "drop_features": [],
+    "zero_payload": true,
+    "drop_features_mode": false,
+    "description": "Partial payload loss: zero-out payload_len or drop selected features for random samples"
+  },
+  "target": "test"
+}
+
